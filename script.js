@@ -22,3 +22,15 @@ function gerarTabela() {
     tabela.innerHTML += linha;
   }
 }
+document.getElementById("gta").onclick = function () {
+  window.open("https://youtu.be/WBfgktrt0lM?t=4799", "_blank");
+};
+
+document.getElementById("minecraft").onclick = function () {
+  window.open("https://youtu.be/mxHIFijxTZY?t=8210", "_blank");
+};
+
+document.getElementById("fortnite").onclick = function () {
+  window.open("https://youtu.be/M2pyqnypx50?t=203", "_blank");
+};
+
