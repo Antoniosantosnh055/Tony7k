@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
+  margin: 0;
+}
+
+.cabecalho {
+  background: #222;
+  padding: 10px;
+  text-align: center;
+}
+
+.titulo-principal {
+  color: #d400ff;
+}
+
+.navegacao a {
+  color: #d400ff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.navegacao a:hover {
+  color: white;
+}
+
+.principal {
+  padding: 20px;
+  text-align: center;
+}
+
+.rodape {
+  background: #222;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card-jogo {
+  border: 1px solid #444;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  display: inline-block;
+  width: 200px;
+  background: #333;
+  text-align: center;
+}
+
+.card-jogo a {
+  display: block;
+  margin-top: 8px;
+  color: #d400ff;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.tabela-jogos {
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: center;
+  background: #222;
+  color: white;
+}
+
+.celula, .cabecalho-tabela {
+  border: 1px solid #555;
+  padding: 10px;
+}
+
+.cabecalho-tabela {
+  background-color: #d400ff;
+}
+
+#c {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ebebeb;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 15px 25px;
+  border: 1px solid #b380ff;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(179, 128, 255, 0.5);
+}
+
+#c span {
+  color: #a64dff;
+  font-weight: bold;
+}
+
