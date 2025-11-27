@@ -12,6 +12,8 @@ function gerarTabela() {
     { nome: "GTA V", genero: "Mundo Aberto", ano: 2013 },
     { nome: "Minecraft", genero: "Sobrevivência", ano: 2011 },
     { nome: "Fortnite", genero: "Battle Royale", ano: 2017 },
+    { nome: "CS 2", genero: "FPS", ano: 2023 },
+    { nome: "Super Mario World", genero: "Plataforma", ano: 1990 },
   ];
 
   const tabela = document.getElementById("tabela-jogos");
@@ -32,5 +34,8 @@ document.getElementById("minecraft").onclick = function () {
 
 document.getElementById("fortnite").onclick = function () {
   window.open("https://youtu.be/M2pyqnypx50?t=203", "_blank");
+};
+document.getElementById("cs").onclick = function () {
+  window.open("https://youtu.be/C5lNW_xyWzE", "_blank");
 };
 
