@@ -1,22 +1,21 @@
 body {
   font-family: Arial, sans-serif;
-  background: #111;
-  color: white;
-  margin: 0;
+  background-image: url(https://wallpapers.com/images/hd/dark-purple-and-black-plain-75znhgkjjxu552fr.jpg);
 }
 
 .cabecalho {
-  background: #222;
+  background: #100022;
   padding: 10px;
   text-align: center;
 }
 
 .titulo-principal {
-  color: #d400ff;
+  color: #ffffff;
+
 }
 
 .navegacao a {
-  color: #d400ff;
+  color: #ffffff;
   text-decoration: none;
   margin: 0 10px;
   font-weight: bold;
@@ -29,10 +28,11 @@ body {
 .principal {
   padding: 20px;
   text-align: center;
+  color: #ffffff;
 }
 
 .rodape {
-  background: #222;
+  background: #ffffff;
   padding: 10px;
   text-align: center;
   margin-top: 20px;
@@ -52,7 +52,7 @@ body {
 .card-jogo a {
   display: block;
   margin-top: 8px;
-  color: #d400ff;
+  color: #b800dd;
   text-decoration: underline;
   font-size: 14px;
 }
@@ -71,7 +71,7 @@ body {
 }
 
 .cabecalho-tabela {
-  background-color: #d400ff;
+  background-color: #3e0077;
 }
 
 #c {
